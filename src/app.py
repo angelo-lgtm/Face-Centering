@@ -1,6 +1,9 @@
 """Interactive live face detection, recognition, tracking and identity-lock demo."""
 from __future__ import annotations
 
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
